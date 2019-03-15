@@ -5,6 +5,12 @@ class Book
     @page_count = 272
     @genre = "Mystery"
   end 
+  
   attr_accessor :title, :author, :page_count, :genre 
+  
+  def turn_page
+    
+  end 
+  
 end 
 
